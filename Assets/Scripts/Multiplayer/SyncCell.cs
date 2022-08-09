@@ -82,6 +82,7 @@ public class SyncCell : NetworkBehaviour
                 cell.GetCellSpriteRenderer().color = cell.GetDeadColor();
                 cell.SetCurrentColor(cell.GetDeadColor());
             }
+            RPCAliveCell(b, cell.GetAliveColor());
         }
         else CmdAliveCell(b, cell.GetAliveColor());
     }
