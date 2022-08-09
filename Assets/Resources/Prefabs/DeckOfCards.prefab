@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8893269470709679638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4197834973716911005}
+  - component: {fileID: 2432386022475839968}
+  m_Layer: 0
+  m_Name: DeckOfCards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4197834973716911005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893269470709679638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2432386022475839968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893269470709679638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c7d61204d76b24b864dcff2725053e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deckOfCards:
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
+    _shapeSprite: {fileID: 21300000, guid: 37293d9f958110b48b50c3f93bcab0fd, type: 3}
+    _type: 1
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 0, y: -1}
+    - {x: 0, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: 775aa5e2a5373204e9f7978c847d9a53, type: 3}
+    _type: 2
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: -1}
+    - {x: 1, y: -2}
+    - {x: 0, y: -2}
+    - {x: -1, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: 3c96957db6952ee4b8ea08db961a4ce7, type: 3}
+    _type: 3
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: -1, y: -1}
+    - {x: 0, y: -1}
+    - {x: 1, y: -1}
+    _shapeSprite: {fileID: 21300000, guid: 4408f27c0f221e845b9b1392b7f6f2c6, type: 3}
+    _type: 2
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: -1}
+    - {x: 2, y: -3}
+    - {x: 3, y: -3}
+    - {x: 3, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: b48166c7cade5cc4fa4af16f14ba67c9, type: 3}
+    _type: 2
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 3, y: 0}
+    - {x: 4, y: -1}
+    - {x: 4, y: -2}
+    - {x: 4, y: -3}
+    - {x: 3, y: -3}
+    - {x: 2, y: -3}
+    - {x: 1, y: -3}
+    - {x: 0, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: 1f961bd93b49e8843914b6dd52398c5d, type: 3}
+    _type: 3
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: -1}
+    - {x: -1, y: -1}
+    - {x: 0, y: -2}
+    - {x: 1, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: 19e302374642aea45850213489fa8ebe, type: 3}
+    _type: 1
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: -1}
+    - {x: 2, y: -2}
+    - {x: -1, y: -1}
+    - {x: 0, y: -2}
+    - {x: 1, y: -3}
+    _shapeSprite: {fileID: 21300000, guid: c22e3eb97de2853448dbfeaf5070e0d4, type: 3}
+    _type: 1
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: -1}
+    - {x: 0, y: -1}
+    - {x: 1, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: 9f69271f3fec0de4288cbcf161b0ed1f, type: 3}
+    _type: 1
+  - _cellPositions:
+    - {x: 0, y: 0}
+    - {x: 1, y: -1}
+    - {x: -1, y: -1}
+    - {x: 0, y: -2}
+    _shapeSprite: {fileID: 21300000, guid: 8e138f1262387c54ca5f02d1b278cf1b, type: 3}
+    _type: 1
