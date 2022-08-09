@@ -126,6 +126,7 @@ public class CardGameManager : MonoBehaviour
         _ui.NewGame(_player.GetTurns(), _actions);
         Cell[] _cells = _gameOfLifeManager.GetCellsArray();
         for (int i = 0; i < _cells.Length; i++) _cells[i].SetIsAlive(false);
+        _gameOfLifeManager.SetCellsArray();
     }
 
     #endregion ButtonFunctions
